@@ -67,7 +67,7 @@ export default function Main() {
 
       </Content>
 
-      <Tabs />
+      <Tabs translateY={translateY}/>
     </Container>
   );
 }
