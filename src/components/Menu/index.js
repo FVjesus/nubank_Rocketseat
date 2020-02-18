@@ -1,8 +1,8 @@
 import React from 'react';
 
-import QRCode from 'react-native-qrcode';
+import QRCode from 'react-native-qrcode-svg';
 
-import { Container } from './styles';
+import { Container, Code } from './styles';
 
 export default function Menu() {
     return (
@@ -10,9 +10,9 @@ export default function Menu() {
             <Code>
                 <QRCode
                     value="https://github.com/FVjesus"
+                    backgroundColor="#FFF"
+                    color="#8B10AE"
                     size={80}
-                    bgColor="#FFF"
-                    fgColor="#8B10AE"
                 />
             </Code>
         </Container>
