@@ -5,7 +5,7 @@
 ## The Project
 This project consists of the clone of the main interface of the nubank app, both the interface and the animations have been replicated.
 
-<img src ="/img/nubank1" 
+<img src ="/img/nubank1.png" 
 height ="640" width="360" >
 <img src ="/img/nubank2.png" 
 height ="640" width="360" >
@@ -21,7 +21,7 @@ height ="640" width="360" >
 ```sh
 react-native run-android
 ```
-or 
+### or 
 
 ```sh
 react-native run-ios
